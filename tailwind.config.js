@@ -14,7 +14,15 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                'trajan': ['Trajan Pro', 'Times New Roman', 'serif'],
+                'garamond': ['Cormorant Garamond', 'Georgia', 'serif'],
+            },
+            colors: {
+                primary: '#15616D',
+                accent: '#FF5C39',
+                secondary: '#FFECD1',
+                darkPrimary: '#0f4e59',
+                danger: '#D55D5B',
             },
         },
     },

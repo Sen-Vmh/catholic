@@ -4,7 +4,7 @@
     "scripts": {
         "mailpit": "mailpit",
         "dev": "vite",
-        "watch": "vite --open",
+        "watch": "vite --open http://cathoquiz.test/",
         "build": "vite build",
         "zip": "node zip.cjs"
     },
